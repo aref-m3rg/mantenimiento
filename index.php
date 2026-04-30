@@ -34,7 +34,7 @@
             <p><strong><i class="fas fa-life-ring"></i> ¿Necesita ayuda?</strong></p>
             <p>Si tiene consultas urgentes, puede contactarnos en:</p>
             <p>
-                <a href="mailto:soporte@ejemplo.com" class="email-link"><i class="fas fa-envelope"></i> catastro@aref.gob.ar</a>
+                <a href="mailto:catastro@aref.gob.ar" class="email-link"><i class="fas fa-envelope"></i> catastro@aref.gob.ar</a>
             </p>
         </div>
 
