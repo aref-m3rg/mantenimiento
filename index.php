@@ -9,6 +9,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Mantenimiento - Servicio en Construcción</title>
     <style>
         * {
@@ -123,7 +124,7 @@
 </head>
 <body>
     <div class="maintenance-container">
-        <div class="maintenance-icon">🔧</div>
+        <div class="maintenance-icon"><i class="fas fa-tools"></i></div>
         
         <h1>Servicio en Mantenimiento</h1>
         <p class="subtitle">Estamos mejorando nuestros servicios</p>
@@ -139,10 +140,10 @@
         </div>
 
         <div class="contact-info">
-            <p><strong>¿Necesita ayuda?</strong></p>
+            <p><strong><i class="fas fa-life-ring"></i> ¿Necesita ayuda?</strong></p>
             <p>Si tiene consultas urgentes, puede contactarnos en:</p>
             <p>
-                <a href="mailto:soporte@ejemplo.com" class="email-link">soporte@ejemplo.com</a>
+                <a href="mailto:soporte@ejemplo.com" class="email-link"><i class="fas fa-envelope"></i> catastro@aref.gob.ar</a>
             </p>
         </div>
 
