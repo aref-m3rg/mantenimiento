@@ -1,0 +1,14 @@
+# Archivo de Configuración de Apache para Redirigir a Mantenimiento
+# Coloca este archivo en la raíz de tu aplicación web
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Permite el acceso a ciertos directorios/archivos (opcional)
+    # RewriteCond %{REQUEST_FILENAME} !-f
+    # RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirige todas las solicitudes a index.php de mantenimiento
+    # Descomenta la siguiente línea para activar
+    # RewriteRule ^(.*)$ /mantenimiento/index.php [L]
+</IfModule>
